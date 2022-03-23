@@ -305,6 +305,7 @@ Esse modo de mensagem é ativado por parâmetro interno do sistema devido ao imp
 | 2231       | COMPLETO   | A ÚLTIMA LINHA PRECISA SER UM TRAILLER (9)                                                                                                         |
 | 2229       | COMPLETO   | A LINHA QUE ANTECEDE O TRAILLER PRECISA SER UMA TRANSAÇÃO (1)                                                                                      |
 | 2305       | COMPLETO   | Documento do devedor inválido. (999.999.999-99)                                                                                                    |
+| 2316       | COMPLETO   | Custas do cartório/distribuidor não podem ser informadas para títulos sem pedido de desistência. Protocolo: XXX.                                   |
 | 10000      | COMPLETO   | 1.5 ARQUIVO XML CORROMPIDO.                                                                                                                        |
 
 #### **Imagem no arquivo de remessa**
@@ -357,7 +358,7 @@ Esse modo de mensagem é ativado por parâmetro interno do sistema devido ao imp
 | 2019       | FALTOU INFORMAR A TAG: CODMUN                                                               |
 | 2020       | FALTOU INFORMAR A TAG: NUMERO\_CARTORIO                                                     |
 | 2021       | FALTOU INFORMAR A TAG: TITULO                                                               |
-| 2022       |  FALTOU INFORMAR A TAG: CARTORIO                                                            |
+| 2022       | FALTOU INFORMAR A TAG: CARTORIO                                                             |
 | 2023       | FALTOU INFORMAR A TAG: CANCELAMENTO                                                         |
 | 2024       | FALTOU INFORMAR A TAG: DESISTENCIA                                                          |
 | 2025       | FALTOU INFORMAR A TAG: AUTORIZACAO                                                          |
