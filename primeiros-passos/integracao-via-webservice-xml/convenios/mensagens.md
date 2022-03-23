@@ -305,7 +305,6 @@ Esse modo de mensagem é ativado por parâmetro interno do sistema devido ao imp
 | 2231       | COMPLETO   | A ÚLTIMA LINHA PRECISA SER UM TRAILLER (9)                                                                                                         |
 | 2229       | COMPLETO   | A LINHA QUE ANTECEDE O TRAILLER PRECISA SER UMA TRANSAÇÃO (1)                                                                                      |
 | 2305       | COMPLETO   | Documento do devedor inválido. (999.999.999-99)                                                                                                    |
-| 2316       | COMPLETO   | Custas do cartório/distribuidor não podem ser informadas para títulos sem pedido de desistência. Protocolo: XXX.                                   |
 | 10000      | COMPLETO   | 1.5 ARQUIVO XML CORROMPIDO.                                                                                                                        |
 
 #### **Imagem no arquivo de remessa**
@@ -378,13 +377,14 @@ Esse modo de mensagem é ativado por parâmetro interno do sistema devido ao imp
 
 **Retorno**
 
-| **CÓDIGO** | **DESCRIÇÃO**                                                                             |
-| ---------- | ----------------------------------------------------------------------------------------- |
-| 0001       | FALHA NA AUTENTICAÇÃO                                                                     |
-| 0002       | NOME DO ARQUIVO INVÁLIDO                                                                  |
-| 0004       | NÃO EXISTE RETORNO NA DATA INFORMADA.                                                     |
-| 0009       | A INSTITUIÇÃO (XXX) DO USUÁRIO ESTÁ INATIVA                                               |
-| 2163       | Já foi enviado arquivo de retorno com o sequencial (XXXX) para o apresentante XXXX (XXXX) |
+| **CÓDIGO** | **DESCRIÇÃO**                                                                                                    |
+| ---------- | ---------------------------------------------------------------------------------------------------------------- |
+| 0001       | FALHA NA AUTENTICAÇÃO                                                                                            |
+| 0002       | NOME DO ARQUIVO INVÁLIDO                                                                                         |
+| 0004       | NÃO EXISTE RETORNO NA DATA INFORMADA.                                                                            |
+| 0009       | A INSTITUIÇÃO (XXX) DO USUÁRIO ESTÁ INATIVA                                                                      |
+| 2163       | Já foi enviado arquivo de retorno com o sequencial (XXXX) para o apresentante XXXX (XXXX)                        |
+| 2316       | Custas do cartório/distribuidor não podem ser informadas para títulos sem pedido de desistência. Protocolo: XXX. |
 
 **Consulta slip**
 
